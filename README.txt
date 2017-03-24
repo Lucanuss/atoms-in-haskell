@@ -45,3 +45,6 @@ green pixels are displayed on (floor x, floor y).
 While the position in the top row and the movement vector of new pixels is selected pseudo-randomly
 (using a Blum-Blum-Shub generator), the spawn is always in the half of the screen where the player is
 currently not and the direction is away from the player in order to avoid instant hittings.
+
+Notes for making:
+Main.hs needs to be compiled with stack ghc using the command "stack ghc -- --make Main.hs"
