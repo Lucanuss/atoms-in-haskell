@@ -1,0 +1,1012 @@
+
+==================== FINAL INTERFACE ====================
+2017-01-30 07:33:19.0580924 UTC
+
+interface SDLEvent-0.1.0.0-4c9FDX62XT68p8wGySnMkf:SDLEventProvider.SDLKeyEventProvider 8001
+  interface hash: bb0b5c3734c4af71d4d1658c04ad7a50
+  ABI hash: 80c3f5e29eac8efed17a5f0da7b177ab
+  export-list hash: cca1a03c55196876c8d52bd73350e143
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 62d442fbac61e312b4f35a7cf7790f2a
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  SDLEventProvider.SDLKeyEventProvider.sdlKeyEventGen
+  SDLEventProvider.SDLKeyEventProvider.sdlKeyEventProvider
+  SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow
+  SDLEventProvider.SDLKeyEventProvider.InternalKeyState{SDLEventProvider.SDLKeyEventProvider.InternalKeyState heldI pressedI releasedI}
+  SDLEventProvider.SDLKeyEventProvider.KeyState{SDLEventProvider.SDLKeyEventProvider.KeyState held pressed released}
+module dependencies:
+package dependencies: HSMateLight-0.1.0.0@HSMateLight-0.1.0.0-Df1CB9554xjHvhQtZIZ9Dm
+                      StateVar-1.1.0.4@StateVar-1.1.0.4-CJpWsiXJdd89SnV9dZtTwc
+                      Win32-2.3.1.1@Win32-2.3.1.1
+                      adjunctions-4.3@adjunctions-4.3-4Ce41VL5vJQ2GHDuvBYOaY
+                      appar-0.1.4@appar-0.1.4-1in4Ewd8JBkAYDZSWXLSe0
+                      array-0.5.1.1@array-0.5.1.1 base-4.9.0.0
+                      base-orphans-0.5.4@base-orphans-0.5.4-5IQvrjd7gNP548VkOOyIq6
+                      bifunctors-5.4.1@bifunctors-5.4.1-BPeqTGtW23n6LN2XFkdV
+                      binary-0.8.3.0@binary-0.8.3.0
+                      byteorder-1.0.4@byteorder-1.0.4-BbL4c17EpZrL9PcZm0xys9
+                      bytes-0.15.2@bytes-0.15.2-FLDNfUp4pekBDHdwA75G5r
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      cereal-0.5.4.0@cereal-0.5.4.0-2FJYHGgtE5C3SxaZjt25xS
+                      comonad-5@comonad-5-K67oBSM48Vd3lLCWoA5wEU
+                      containers-0.5.7.1@containers-0.5.7.1
+                      contravariant-1.4@contravariant-1.4-KSQE31a7FruKHDlp90hIUT
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      distributive-0.5.1@distributive-0.5.1-5St8fnipE6nCxzbgGHU2c
+                      exceptions-0.8.3@exceptions-0.8.3-7py7fmRxowDFpHmiHGKrTb
+                      free-4.12.4@free-4.12.4-1ITnOV9d7sz5LQd0ol851m
+                      ghc-boot-th-8.0.1@ghc-boot-th-8.0.1 ghc-prim-0.5.0.0
+                      hashable-1.2.4.0@hashable-1.2.4.0-EMu4H7FB10MAl6hwKw992G
+                      integer-gmp-1.0.0.1
+                      iproute-1.7.1@iproute-1.7.1-EsJa15Wmnfj5pBTvNuT9V3
+                      kan-extensions-5.0.1@kan-extensions-5.0.1-YMPsMkdoFrIOKXDGVJXnE
+                      lens-4.14@lens-4.14-JpTSnP1OzYyKpQqwE2EIrq
+                      linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm
+                      mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM
+                      network-2.6.3.1@network-2.6.3.1-nK9qnsiJR03CWuPIGMmX
+                      prelude-extras-0.4.0.3@prelude-extras-0.4.0.3-FAyB4iuuM7cHXdrLMZtdXq
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa
+                      profunctors-5.2@profunctors-5.2-Ltg66QzYP4ABnjg0OCT67L
+                      random-1.1@random-1.1-54KmMHXjttlERYcr1mvsAe
+                      reflection-2.1.2@reflection-2.1.2-J1ZzlxijzaHGRixYxgxlf9
+                      scientific-0.3.4.9@scientific-0.3.4.9-6oTYuCcx6H5BsTGU7D2Gk3
+                      sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO
+                      semigroupoids-5.1@semigroupoids-5.1-8D9MOHoStth3k6tqgg3LJf
+                      stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF
+                      tagged-0.8.5@tagged-0.8.5-CtgV6EcN0do8F92i1S6iYx
+                      template-haskell-2.11.0.0
+                      text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s
+                      time-1.6.0.1@time-1.6.0.1 transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-81lZyuOJOvsD0zyCv2TKld
+                      unordered-containers-0.2.7.2@unordered-containers-0.2.7.2-2FShXByu6KdBz0M9aQqvS3
+                      vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6
+orphans: base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.4.0@hashable-1.2.4.0-EMu4H7FB10MAl6hwKw992G:Data.Hashable.Generic
+         linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.Instances
+         network-2.6.3.1@network-2.6.3.1-nK9qnsiJR03CWuPIGMmX:Network.Socket
+         reflection-2.1.2@reflection-2.1.2-J1ZzlxijzaHGRixYxgxlf9:Data.Reflection
+         stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF:Control.Monad.STM
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjunctions-4.3-4Ce41VL5vJQ2GHDuvBYOaY:Data.Functor.Rep
+                         base-4.9.0.0:Control.Applicative base-4.9.0.0:Data.Complex
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Compose
+                         base-4.9.0.0:Data.Functor.Const base-4.9.0.0:Data.Functor.Identity
+                         base-4.9.0.0:Data.Functor.Product base-4.9.0.0:Data.Functor.Sum
+                         base-4.9.0.0:Data.List.NonEmpty base-4.9.0.0:Data.Monoid
+                         base-4.9.0.0:Data.Semigroup base-4.9.0.0:Data.Type.Equality
+                         base-4.9.0.0:Data.Version base-4.9.0.0:Data.Void
+                         base-4.9.0.0:GHC.Exts base-4.9.0.0:GHC.Generics
+                         base-4.9.0.0:GHC.IO.Exception base-4.9.0.0:GHC.TypeLits
+                         bifunctors-5.4.1@bifunctors-5.4.1-BPeqTGtW23n6LN2XFkdV:Data.Bifunctor.Biff
+                         bifunctors-5.4.1@bifunctors-5.4.1-BPeqTGtW23n6LN2XFkdV:Data.Bifunctor.Clown
+                         bifunctors-5.4.1@bifunctors-5.4.1-BPeqTGtW23n6LN2XFkdV:Data.Bifunctor.Flip
+                         bifunctors-5.4.1@bifunctors-5.4.1-BPeqTGtW23n6LN2XFkdV:Data.Bifunctor.Join
+                         bifunctors-5.4.1@bifunctors-5.4.1-BPeqTGtW23n6LN2XFkdV:Data.Bifunctor.Joker
+                         bifunctors-5.4.1@bifunctors-5.4.1-BPeqTGtW23n6LN2XFkdV:Data.Bifunctor.Product
+                         bifunctors-5.4.1@bifunctors-5.4.1-BPeqTGtW23n6LN2XFkdV:Data.Bifunctor.Sum
+                         bifunctors-5.4.1@bifunctors-5.4.1-BPeqTGtW23n6LN2XFkdV:Data.Bifunctor.Tannen
+                         bifunctors-5.4.1@bifunctors-5.4.1-BPeqTGtW23n6LN2XFkdV:Data.Bifunctor.Wrapped
+                         bytes-0.15.2@bytes-0.15.2-FLDNfUp4pekBDHdwA75G5r:Data.Bytes.Get
+                         bytes-0.15.2@bytes-0.15.2-FLDNfUp4pekBDHdwA75G5r:Data.Bytes.Signed
+                         bytes-0.15.2@bytes-0.15.2-FLDNfUp4pekBDHdwA75G5r:Data.Bytes.VarInt
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         ghc-boot-th-8.0.1@ghc-boot-th-8.0.1:GHC.LanguageExtensions.Type
+                         iproute-1.7.1@iproute-1.7.1-EsJa15Wmnfj5pBTvNuT9V3:Data.IP.Addr
+                         iproute-1.7.1@iproute-1.7.1-EsJa15Wmnfj5pBTvNuT9V3:Data.IP.Range
+                         kan-extensions-5.0.1@kan-extensions-5.0.1-YMPsMkdoFrIOKXDGVJXnE:Data.Functor.Day
+                         kan-extensions-5.0.1@kan-extensions-5.0.1-YMPsMkdoFrIOKXDGVJXnE:Data.Functor.Yoneda
+                         lens-4.14@lens-4.14-JpTSnP1OzYyKpQqwE2EIrq:Control.Lens.At
+                         lens-4.14@lens-4.14-JpTSnP1OzYyKpQqwE2EIrq:Control.Lens.Internal.Indexed
+                         lens-4.14@lens-4.14-JpTSnP1OzYyKpQqwE2EIrq:Control.Lens.Reified
+                         lens-4.14@lens-4.14-JpTSnP1OzYyKpQqwE2EIrq:Control.Lens.Tuple
+                         lens-4.14@lens-4.14-JpTSnP1OzYyKpQqwE2EIrq:Control.Lens.Wrapped
+                         lens-4.14@lens-4.14-JpTSnP1OzYyKpQqwE2EIrq:Control.Lens.Zoom
+                         linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.Affine
+                         linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.Plucker
+                         linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.Quaternion
+                         linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.V
+                         linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.V0
+                         linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.V1
+                         linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.V2
+                         linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.V3
+                         linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.V4
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa:Control.Monad.Primitive
+                         profunctors-5.2@profunctors-5.2-Ltg66QzYP4ABnjg0OCT67L:Data.Profunctor.Rep
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Audio
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Event
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Exception
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Hint
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Init
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Input.Joystick
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Input.Keyboard
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Input.Keyboard.Codes
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Input.Mouse
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Internal.Types
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Power
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Time
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Video
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Video.OpenGL
+                         sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Video.Renderer
+                         tagged-0.8.5@tagged-0.8.5-CtgV6EcN0do8F92i1S6iYx:Data.Tagged
+                         template-haskell-2.11.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Lazy
+                         unordered-containers-0.2.7.2@unordered-containers-0.2.7.2-2FShXByu6KdBz0M9aQqvS3:Data.HashMap.Base
+                         unordered-containers-0.2.7.2@unordered-containers-0.2.7.2-2FShXByu6KdBz0M9aQqvS3:Data.HashSet
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Unboxed.Base
+import  -/  HSMateLight-0.1.0.0@HSMateLight-0.1.0.0-Df1CB9554xjHvhQtZIZ9Dm:Network.MateLight 9a366672dd83766dca66a67b37f0eab9
+import  -/  HSMateLight-0.1.0.0@HSMateLight-0.1.0.0-Df1CB9554xjHvhQtZIZ9Dm:Network.MateLight.Simple 81d7dcb13d042dc814b0b490d974bb2d
+import  -/  StateVar-1.1.0.4@StateVar-1.1.0.4-CJpWsiXJdd89SnV9dZtTwc:Data.StateVar 9a35282b15a43d44bc41189ba9b1af58
+import  -/  base-4.9.0.0:Control.Concurrent c3bd1c151fa27857a3c9d1db4bfc9ff7
+import  -/  base-4.9.0.0:Control.Concurrent.Chan 421cbfcb11941eb8aeba94620ec85f38
+import  -/  base-4.9.0.0:Control.Monad b6b2f076948b5e8acd6d95beb4d22bfc
+import  -/  base-4.9.0.0:Control.Monad.IO.Class 6093ce5ace985d5ea81901bb51e28805
+import  -/  base-4.9.0.0:Data.Char 793b969914b1622fef8ab278ed0a2b7f
+import  -/  base-4.9.0.0:Data.Foldable 3cbed01c922be29649c33015287c82ca
+import  -/  base-4.9.0.0:Data.List d711f98b49ef5d33e5b3d404631ed073
+import  -/  base-4.9.0.0:Data.OldList 3c899c6d8e6204063769214449ac0954
+import  -/  base-4.9.0.0:GHC.Base dd8044a8d640eee51828c17c476a6ba7
+import  -/  base-4.9.0.0:GHC.Char 387f61e5cac47c1fa5112e589303f9d5
+import  -/  base-4.9.0.0:GHC.Conc.IO a4f5c846d1817845898e46b8578448aa
+import  -/  base-4.9.0.0:GHC.Conc.Sync a1292c872414656fef080815d5d8e73c
+import  -/  base-4.9.0.0:GHC.List 47d436dfb7454bb1883fb4d943e3f389
+import  -/  base-4.9.0.0:GHC.Num f0aed3315b3ed1b330b71fc4148a5581
+import  -/  base-4.9.0.0:GHC.Read 4c41c56299e3935fa784002a9231b325
+import  -/  base-4.9.0.0:GHC.Real 011de9ca3282ad24a84e4e15f974f98e
+import  -/  base-4.9.0.0:GHC.Show 0b5845243cb2ec62b57dd6963d276ec6
+import  -/  base-4.9.0.0:Prelude 2d9cd8b0ec3d728f62b734df888d2e34
+import  -/  base-4.9.0.0:Text.ParserCombinators.ReadPrec 452408038bf4813973bc0de3c5248cff
+import  -/  base-4.9.0.0:Text.Read.Lex 70e7158fbfbfbfe23ec26422fecddba8
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 16d48e012d23eaef9bca91ccdd572c02
+import  -/  ghc-prim-0.5.0.0:GHC.Types 7378e41b7749213c8c88ceb6b0665d4c
+import  -/  integer-gmp-1.0.0.1:GHC.Integer.Type bc99d7d6ca3e6f7b722927a29e227674
+import  -/  linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.V2 454ba4247ba550a97d6013ce877ebf23
+import  -/  linear-1.20.5@linear-1.20.5-7kftTbiu4tTBQ37ih4GZUm:Linear.V4 12a79249950f9665d62da717afeed403
+import  -/  mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM:Control.Monad.Reader 859b39f57eb3bed457106c30aac21473
+import  -/  mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM:Control.Monad.State d851912d62cbc95e043a9cc13c3581de
+import  -/  sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL 174c95fbd38702a317bd88e5e5702fb6
+import  -/  sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Event a7875899523d236f1d71f5cf7141f7bd
+import  -/  sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Init 541ebaa2668d9863eb3273acdd4c8dee
+import  -/  sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Input.Keyboard e25e5e673f2d65c42348c69caa8eabad
+import  -/  sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Input.Keyboard.Codes 21cd148c4e98e4304b1bcf6309d6979a
+import  -/  sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Internal.Types 2931e8db393aeff1e760f8b8540e9a4b
+import  -/  sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Video f4b6d6768d8be277373739b79f547df5
+import  -/  sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO:SDL.Video.Renderer 7977a9d864803f7b393fd4d97804a8b2
+import  -/  stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF:Control.Concurrent.STM 674516fe7a455ad46572e426b17538fa
+import  -/  stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF:Control.Concurrent.STM.TChan 50e90dd10474a6f93eedf615dd557d02
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock 23d666c4496b6f7bf555419424731ccb
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock.POSIX e713196cbc5b5376598a1c5c558ed52c
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock.UTC 537fb1f480607f986a423bba04b71bb0
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock.UTCDiff 80f2bd9683d48be9be5d38931a418157
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime 6db340581da979eee65dd0e3f4a2eceb
+6fb08f9a0c8469d95d5da233382ad786
+  $fReadInternalKeyState ::
+    GHC.Read.Read SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+                  SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState_$creadsPrec
+                  SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState_$creadList
+                  SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState_$creadPrec
+                  SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState_$creadListPrec -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fReadInternalKeyState1 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       ([SDLEventProvider.SDLKeyEventProvider.InternalKeyState]
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <L,A><L,C(U)>,
+     Unfolding: InlineRule (2, True, True)
+                (\ (eta :: Text.ParserCombinators.ReadPrec.Prec)
+                   @ b
+                   (eta1 :: [SDLEventProvider.SDLKeyEventProvider.InternalKeyState]
+                            -> Text.ParserCombinators.ReadP.P b) ->
+                 GHC.Read.$wlist
+                   @ SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+                   SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState2
+                     `cast`
+                   (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                             <SDLEventProvider.SDLKeyEventProvider.InternalKeyState>_R))
+                   @ b
+                   eta1) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fReadInternalKeyState2 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> Text.ParserCombinators.ReadP.ReadP
+         SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+  {- Arity: 1,
+     Unfolding: (GHC.Read.$fReadDouble10
+                   @ SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+                   SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState3
+                     `cast`
+                   (Trans
+                        (<Text.ParserCombinators.ReadPrec.Prec>_R
+                         ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                       <SDLEventProvider.SDLKeyEventProvider.InternalKeyState>_R))
+                        (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                  <SDLEventProvider.SDLKeyEventProvider.InternalKeyState>_R)))) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fReadInternalKeyState3 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       (SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <S(S),1*U(U)><L,C(U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Text.ParserCombinators.ReadPrec.Prec)
+                   @ b
+                   (w1 :: SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+                          -> Text.ParserCombinators.ReadP.P b) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 SDLEventProvider.SDLKeyEventProvider.$w$creadPrec ww1 @ b w1 }) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fReadInternalKeyState4 ::
+    Text.ParserCombinators.ReadP.P
+      [SDLEventProvider.SDLKeyEventProvider.InternalKeyState]
+  {- Unfolding: (GHC.Read.$wlist
+                   @ SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+                   SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState2
+                     `cast`
+                   (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                             <SDLEventProvider.SDLKeyEventProvider.InternalKeyState>_R))
+                   @ [SDLEventProvider.SDLKeyEventProvider.InternalKeyState]
+                   (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
+                      @ [SDLEventProvider.SDLKeyEventProvider.InternalKeyState])) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fReadInternalKeyState_$creadList ::
+    Text.ParserCombinators.ReadP.ReadS
+      [SDLEventProvider.SDLKeyEventProvider.InternalKeyState]
+  {- Arity: 1,
+     Unfolding: (Text.ParserCombinators.ReadP.run
+                   @ [SDLEventProvider.SDLKeyEventProvider.InternalKeyState]
+                   SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState4) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fReadInternalKeyState_$creadListPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec
+      [SDLEventProvider.SDLKeyEventProvider.InternalKeyState]
+  {- Arity: 2, Strictness: <L,A><L,C(U)>,
+     Unfolding: InlineRule (0, True, True)
+                SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState1
+                  `cast`
+                (Trans
+                     (<Text.ParserCombinators.ReadPrec.Prec>_R
+                      ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                    <[SDLEventProvider.SDLKeyEventProvider.InternalKeyState]>_R))
+                     (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                               <[SDLEventProvider.SDLKeyEventProvider.InternalKeyState]>_R))) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fReadInternalKeyState_$creadPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec
+      SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState2
+                  `cast`
+                (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                          <SDLEventProvider.SDLKeyEventProvider.InternalKeyState>_R)) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fReadInternalKeyState_$creadsPrec ::
+    GHC.Types.Int
+    -> Text.ParserCombinators.ReadP.ReadS
+         SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: GHC.Types.Int) ->
+                 Text.ParserCombinators.ReadP.run
+                   @ SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+                   ((GHC.Read.$fReadDouble10
+                       @ SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+                       SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState3
+                         `cast`
+                       (Trans
+                            (<Text.ParserCombinators.ReadPrec.Prec>_R
+                             ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                           <SDLEventProvider.SDLKeyEventProvider.InternalKeyState>_R))
+                            (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                      <SDLEventProvider.SDLKeyEventProvider.InternalKeyState>_R)))
+                       eta)
+                      `cast`
+                    (Text.ParserCombinators.ReadP.N:ReadP[0]
+                         <SDLEventProvider.SDLKeyEventProvider.InternalKeyState>_R)
+                      @ SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+                      (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
+                         @ SDLEventProvider.SDLKeyEventProvider.InternalKeyState))) -}
+e8933ec30926e358a5e47a5af9873283
+  $fReadKeyState ::
+    GHC.Read.Read SDLEventProvider.SDLKeyEventProvider.KeyState
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ SDLEventProvider.SDLKeyEventProvider.KeyState
+                  SDLEventProvider.SDLKeyEventProvider.$fReadKeyState_$creadsPrec
+                  SDLEventProvider.SDLKeyEventProvider.$fReadKeyState_$creadList
+                  SDLEventProvider.SDLKeyEventProvider.$fReadKeyState_$creadPrec
+                  SDLEventProvider.SDLKeyEventProvider.$fReadKeyState_$creadListPrec -}
+e8933ec30926e358a5e47a5af9873283
+  $fReadKeyState1 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       ([SDLEventProvider.SDLKeyEventProvider.KeyState]
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <L,A><L,C(U)>,
+     Unfolding: InlineRule (2, True, True)
+                (\ (eta :: Text.ParserCombinators.ReadPrec.Prec)
+                   @ b
+                   (eta1 :: [SDLEventProvider.SDLKeyEventProvider.KeyState]
+                            -> Text.ParserCombinators.ReadP.P b) ->
+                 GHC.Read.$wlist
+                   @ SDLEventProvider.SDLKeyEventProvider.KeyState
+                   SDLEventProvider.SDLKeyEventProvider.$fReadKeyState2
+                     `cast`
+                   (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                             <SDLEventProvider.SDLKeyEventProvider.KeyState>_R))
+                   @ b
+                   eta1) -}
+e8933ec30926e358a5e47a5af9873283
+  $fReadKeyState2 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> Text.ParserCombinators.ReadP.ReadP
+         SDLEventProvider.SDLKeyEventProvider.KeyState
+  {- Arity: 1,
+     Unfolding: (GHC.Read.$fReadDouble10
+                   @ SDLEventProvider.SDLKeyEventProvider.KeyState
+                   SDLEventProvider.SDLKeyEventProvider.$fReadKeyState3
+                     `cast`
+                   (Trans
+                        (<Text.ParserCombinators.ReadPrec.Prec>_R
+                         ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                       <SDLEventProvider.SDLKeyEventProvider.KeyState>_R))
+                        (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                  <SDLEventProvider.SDLKeyEventProvider.KeyState>_R)))) -}
+e8933ec30926e358a5e47a5af9873283
+  $fReadKeyState3 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       (SDLEventProvider.SDLKeyEventProvider.KeyState
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <S(S),1*U(U)><L,C(U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Text.ParserCombinators.ReadPrec.Prec)
+                   @ b
+                   (w1 :: SDLEventProvider.SDLKeyEventProvider.KeyState
+                          -> Text.ParserCombinators.ReadP.P b) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 SDLEventProvider.SDLKeyEventProvider.$w$creadPrec1 ww1 @ b w1 }) -}
+e8933ec30926e358a5e47a5af9873283
+  $fReadKeyState4 ::
+    Text.ParserCombinators.ReadP.P
+      [SDLEventProvider.SDLKeyEventProvider.KeyState]
+  {- Unfolding: (GHC.Read.$wlist
+                   @ SDLEventProvider.SDLKeyEventProvider.KeyState
+                   SDLEventProvider.SDLKeyEventProvider.$fReadKeyState2
+                     `cast`
+                   (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                             <SDLEventProvider.SDLKeyEventProvider.KeyState>_R))
+                   @ [SDLEventProvider.SDLKeyEventProvider.KeyState]
+                   (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
+                      @ [SDLEventProvider.SDLKeyEventProvider.KeyState])) -}
+e8933ec30926e358a5e47a5af9873283
+  $fReadKeyState_$creadList ::
+    Text.ParserCombinators.ReadP.ReadS
+      [SDLEventProvider.SDLKeyEventProvider.KeyState]
+  {- Arity: 1,
+     Unfolding: (Text.ParserCombinators.ReadP.run
+                   @ [SDLEventProvider.SDLKeyEventProvider.KeyState]
+                   SDLEventProvider.SDLKeyEventProvider.$fReadKeyState4) -}
+e8933ec30926e358a5e47a5af9873283
+  $fReadKeyState_$creadListPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec
+      [SDLEventProvider.SDLKeyEventProvider.KeyState]
+  {- Arity: 2, Strictness: <L,A><L,C(U)>,
+     Unfolding: InlineRule (0, True, True)
+                SDLEventProvider.SDLKeyEventProvider.$fReadKeyState1
+                  `cast`
+                (Trans
+                     (<Text.ParserCombinators.ReadPrec.Prec>_R
+                      ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                    <[SDLEventProvider.SDLKeyEventProvider.KeyState]>_R))
+                     (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                               <[SDLEventProvider.SDLKeyEventProvider.KeyState]>_R))) -}
+e8933ec30926e358a5e47a5af9873283
+  $fReadKeyState_$creadPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec
+      SDLEventProvider.SDLKeyEventProvider.KeyState
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                SDLEventProvider.SDLKeyEventProvider.$fReadKeyState2
+                  `cast`
+                (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                          <SDLEventProvider.SDLKeyEventProvider.KeyState>_R)) -}
+e8933ec30926e358a5e47a5af9873283
+  $fReadKeyState_$creadsPrec ::
+    GHC.Types.Int
+    -> Text.ParserCombinators.ReadP.ReadS
+         SDLEventProvider.SDLKeyEventProvider.KeyState
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: GHC.Types.Int) ->
+                 Text.ParserCombinators.ReadP.run
+                   @ SDLEventProvider.SDLKeyEventProvider.KeyState
+                   ((GHC.Read.$fReadDouble10
+                       @ SDLEventProvider.SDLKeyEventProvider.KeyState
+                       SDLEventProvider.SDLKeyEventProvider.$fReadKeyState3
+                         `cast`
+                       (Trans
+                            (<Text.ParserCombinators.ReadPrec.Prec>_R
+                             ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                           <SDLEventProvider.SDLKeyEventProvider.KeyState>_R))
+                            (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                      <SDLEventProvider.SDLKeyEventProvider.KeyState>_R)))
+                       eta)
+                      `cast`
+                    (Text.ParserCombinators.ReadP.N:ReadP[0]
+                         <SDLEventProvider.SDLKeyEventProvider.KeyState>_R)
+                      @ SDLEventProvider.SDLKeyEventProvider.KeyState
+                      (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
+                         @ SDLEventProvider.SDLKeyEventProvider.KeyState))) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fShowInternalKeyState ::
+    GHC.Show.Show SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+                  SDLEventProvider.SDLKeyEventProvider.$fShowInternalKeyState_$cshowsPrec
+                  SDLEventProvider.SDLKeyEventProvider.$fShowInternalKeyState_$cshow
+                  SDLEventProvider.SDLKeyEventProvider.$fShowInternalKeyState_$cshowList -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fShowInternalKeyState1 ::
+    SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+    -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: SDLEventProvider.SDLKeyEventProvider.InternalKeyState)
+                   (w1 :: GHC.Base.String) ->
+                 case w of ww { SDLEventProvider.SDLKeyEventProvider.InternalKeyState ww1 ww2 ww3 ->
+                 SDLEventProvider.SDLKeyEventProvider.$w$cshowsPrec
+                   0#
+                   ww1
+                   ww2
+                   ww3
+                   w1 }) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fShowInternalKeyState_$cshow ::
+    SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+    -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: SDLEventProvider.SDLKeyEventProvider.InternalKeyState) ->
+                 SDLEventProvider.SDLKeyEventProvider.$fShowInternalKeyState_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fShowInternalKeyState_$cshowList ::
+    [SDLEventProvider.SDLKeyEventProvider.InternalKeyState]
+    -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+                   SDLEventProvider.SDLKeyEventProvider.$fShowInternalKeyState1) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $fShowInternalKeyState_$cshowsPrec ::
+    GHC.Types.Int
+    -> SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+    -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U,1*U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: SDLEventProvider.SDLKeyEventProvider.InternalKeyState)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { SDLEventProvider.SDLKeyEventProvider.InternalKeyState ww3 ww4 ww5 ->
+                 SDLEventProvider.SDLKeyEventProvider.$w$cshowsPrec
+                   ww1
+                   ww3
+                   ww4
+                   ww5
+                   w2 } }) -}
+e8933ec30926e358a5e47a5af9873283
+  $fShowKeyState ::
+    GHC.Show.Show SDLEventProvider.SDLKeyEventProvider.KeyState
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ SDLEventProvider.SDLKeyEventProvider.KeyState
+                  SDLEventProvider.SDLKeyEventProvider.$fShowKeyState_$cshowsPrec
+                  SDLEventProvider.SDLKeyEventProvider.$fShowKeyState_$cshow
+                  SDLEventProvider.SDLKeyEventProvider.$fShowKeyState_$cshowList -}
+e8933ec30926e358a5e47a5af9873283
+  $fShowKeyState1 ::
+    SDLEventProvider.SDLKeyEventProvider.KeyState -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: SDLEventProvider.SDLKeyEventProvider.KeyState)
+                   (w1 :: GHC.Base.String) ->
+                 case w of ww { SDLEventProvider.SDLKeyEventProvider.KeyState ww1 ww2 ww3 ->
+                 SDLEventProvider.SDLKeyEventProvider.$w$cshowsPrec1
+                   0#
+                   ww1
+                   ww2
+                   ww3
+                   w1 }) -}
+e8933ec30926e358a5e47a5af9873283
+  $fShowKeyState_$cshow ::
+    SDLEventProvider.SDLKeyEventProvider.KeyState -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: SDLEventProvider.SDLKeyEventProvider.KeyState) ->
+                 SDLEventProvider.SDLKeyEventProvider.$fShowKeyState_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+e8933ec30926e358a5e47a5af9873283
+  $fShowKeyState_$cshowList ::
+    [SDLEventProvider.SDLKeyEventProvider.KeyState] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ SDLEventProvider.SDLKeyEventProvider.KeyState
+                   SDLEventProvider.SDLKeyEventProvider.$fShowKeyState1) -}
+e8933ec30926e358a5e47a5af9873283
+  $fShowKeyState_$cshowsPrec ::
+    GHC.Types.Int
+    -> SDLEventProvider.SDLKeyEventProvider.KeyState -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U,1*U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: SDLEventProvider.SDLKeyEventProvider.KeyState)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { SDLEventProvider.SDLKeyEventProvider.KeyState ww3 ww4 ww5 ->
+                 SDLEventProvider.SDLKeyEventProvider.$w$cshowsPrec1
+                   ww1
+                   ww3
+                   ww4
+                   ww5
+                   w2 } }) -}
+5f86f301dd10cfb51196223f2d02082f
+  $tc'InternalKeyState :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   8372477631539771895##
+                   5919784098286072745##
+                   SDLEventProvider.SDLKeyEventProvider.$trModule
+                   SDLEventProvider.SDLKeyEventProvider.$tc'InternalKeyState1) -}
+8e9baf8921c7b14d1c276580872f9197
+  $tc'InternalKeyState1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'InternalKeyState"#) -}
+653bbca75ea39e0a03858f8061e4aa1e
+  $tc'KeyState :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   15461398758174504504##
+                   15404051152512071742##
+                   SDLEventProvider.SDLKeyEventProvider.$trModule
+                   SDLEventProvider.SDLKeyEventProvider.$tc'KeyState1) -}
+16a1766fdd89e8b36b4ac5031faa8b1d
+  $tc'KeyState1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'KeyState"#) -}
+6d7a65a07def0eda24f1f54996d23a2b
+  $tcInternalKeyState :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   11030210132606539438##
+                   7165701141874776053##
+                   SDLEventProvider.SDLKeyEventProvider.$trModule
+                   SDLEventProvider.SDLKeyEventProvider.$tcInternalKeyState1) -}
+eef33e2dbf0a18a18973d5bb566d8b14
+  $tcInternalKeyState1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "InternalKeyState"#) -}
+cbfe189b7034ffb98047be08570e37c3
+  $tcKeyState :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   13773689225674295177##
+                   4305433062717430711##
+                   SDLEventProvider.SDLKeyEventProvider.$trModule
+                   SDLEventProvider.SDLKeyEventProvider.$tcKeyState1) -}
+507316adf68634e652ea13083ee06039
+  $tcKeyState1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "KeyState"#) -}
+6cfe41bf57a8eace6258f97c4c341ee4
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   SDLEventProvider.SDLKeyEventProvider.$trModule2
+                   SDLEventProvider.SDLKeyEventProvider.$trModule1) -}
+a693bcfbdd6c3966bb3b193b0457e993
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "SDLEventProvider.SDLKeyEventProvider"#) -}
+a3478562a01824b6d8662ce314671447
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "SDLEvent-0.1.0.0-4c9FDX62XT68p8wGySnMkf"#) -}
+6fb08f9a0c8469d95d5da233382ad786
+  $w$creadPrec ::
+    GHC.Prim.Int#
+    -> forall b.
+       (SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <S,U><L,C(U)>, Inline: [0] -}
+e8933ec30926e358a5e47a5af9873283
+  $w$creadPrec1 ::
+    GHC.Prim.Int#
+    -> forall b.
+       (SDLEventProvider.SDLKeyEventProvider.KeyState
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <S,U><L,C(U)>, Inline: [0] -}
+0428f6f446a71079a3ae358396793689
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer)]
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer,
+         GHC.Integer.Type.Integer)]
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer)]
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 5, Strictness: <S,U><L,1*U><L,1*U><L,1*U><L,U>,
+     Inline: [0] -}
+ba99eddf8f5be93bf3ed17e93bde17b0
+  $w$cshowsPrec1 ::
+    GHC.Prim.Int#
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer)]
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer)]
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer)]
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 5, Strictness: <S,U><L,1*U><L,1*U><L,1*U><L,U>,
+     Inline: [0] -}
+6fb08f9a0c8469d95d5da233382ad786
+  data InternalKeyState
+    = InternalKeyState {pressedI :: [(GHC.Base.String,
+                                      GHC.Integer.Type.Integer)],
+                        heldI :: [(GHC.Base.String, GHC.Integer.Type.Integer,
+                                   GHC.Integer.Type.Integer)],
+                        releasedI :: [(GHC.Base.String, GHC.Integer.Type.Integer)]}
+e8933ec30926e358a5e47a5af9873283
+  data KeyState
+    = KeyState {pressed :: [(GHC.Base.String,
+                             GHC.Integer.Type.Integer)],
+                held :: [(GHC.Base.String, GHC.Integer.Type.Integer)],
+                released :: [(GHC.Base.String, GHC.Integer.Type.Integer)]}
+a6ad3c82193be048f9241a6bf0012061
+  held ::
+    SDLEventProvider.SDLKeyEventProvider.KeyState
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer)]
+  RecSel Left SDLEventProvider.SDLKeyEventProvider.KeyState
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds1 :: SDLEventProvider.SDLKeyEventProvider.KeyState) ->
+                 case ds1 of wild { SDLEventProvider.SDLKeyEventProvider.KeyState ds2 ds3 ds4 ->
+                 ds3 }) -}
+e2f88b85b01ebfc75a8e45c2c16856e8
+  heldI ::
+    SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer,
+         GHC.Integer.Type.Integer)]
+  RecSel Left SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds1 :: SDLEventProvider.SDLKeyEventProvider.InternalKeyState) ->
+                 case ds1 of wild { SDLEventProvider.SDLKeyEventProvider.InternalKeyState ds2 ds3 ds4 ->
+                 ds3 }) -}
+dacc63704c45e1b114ed365124bed68e
+  pressed ::
+    SDLEventProvider.SDLKeyEventProvider.KeyState
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer)]
+  RecSel Left SDLEventProvider.SDLKeyEventProvider.KeyState
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds1 :: SDLEventProvider.SDLKeyEventProvider.KeyState) ->
+                 case ds1 of wild { SDLEventProvider.SDLKeyEventProvider.KeyState ds2 ds3 ds4 ->
+                 ds2 }) -}
+ee16c22ef353e4728f2d91dd374fd44b
+  pressedI ::
+    SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer)]
+  RecSel Left SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds1 :: SDLEventProvider.SDLKeyEventProvider.InternalKeyState) ->
+                 case ds1 of wild { SDLEventProvider.SDLKeyEventProvider.InternalKeyState ds2 ds3 ds4 ->
+                 ds2 }) -}
+2c0ad11134dba85cc3104b6c9e95d92e
+  released ::
+    SDLEventProvider.SDLKeyEventProvider.KeyState
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer)]
+  RecSel Left SDLEventProvider.SDLKeyEventProvider.KeyState
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds1 :: SDLEventProvider.SDLKeyEventProvider.KeyState) ->
+                 case ds1 of wild { SDLEventProvider.SDLKeyEventProvider.KeyState ds2 ds3 ds4 ->
+                 ds4 }) -}
+5a172801747a761ce04178a35164276f
+  releasedI ::
+    SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+    -> [(GHC.Base.String, GHC.Integer.Type.Integer)]
+  RecSel Left SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds1 :: SDLEventProvider.SDLKeyEventProvider.InternalKeyState) ->
+                 case ds1 of wild { SDLEventProvider.SDLKeyEventProvider.InternalKeyState ds2 ds3 ds4 ->
+                 ds4 }) -}
+f2a9f3f5c103c7de862ae8bb655e22b6
+  sdlKeyEventGen ::
+    Control.Concurrent.STM.TChan.TChan Network.MateLight.EventT
+    -> SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+    -> Data.Time.Clock.UTC.UTCTime
+    -> GHC.Types.IO ()
+  {- Arity: 4, Strictness: <L,U(A,U)><L,U(1*U,U,1*U)><L,U(U,U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                SDLEventProvider.SDLKeyEventProvider.sdlKeyEventGen1
+                  `cast`
+                (<Control.Concurrent.STM.TChan.TChan Network.MateLight.EventT>_R
+                 ->_R <SDLEventProvider.SDLKeyEventProvider.InternalKeyState>_R
+                 ->_R <Data.Time.Clock.UTC.UTCTime>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+bdf56b0a50f01dd7d16d608bdc8a74ba
+  sdlKeyEventGen1 ::
+    Control.Concurrent.STM.TChan.TChan Network.MateLight.EventT
+    -> SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+    -> Data.Time.Clock.UTC.UTCTime
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 4,
+     Strictness: <L,U(A,U)><L,U(1*U,U,1*U)><L,U(U,U)><S,U> -}
+72487cf0ab5ec716c5f85eb5d060ccc8
+  sdlKeyEventProvider ::
+    Control.Concurrent.STM.TChan.TChan Network.MateLight.EventT
+    -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <L,U(A,U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                SDLEventProvider.SDLKeyEventProvider.sdlKeyEventProvider1
+                  `cast`
+                (<Control.Concurrent.STM.TChan.TChan Network.MateLight.EventT>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+9016820300af4794949ac7414a671e0a
+  sdlKeyEventProvider1 ::
+    Control.Concurrent.STM.TChan.TChan Network.MateLight.EventT
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,U(A,U)><S,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (channel :: Control.Concurrent.STM.TChan.TChan
+                                 Network.MateLight.EventT)
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case Data.Time.Clock.POSIX.getCurrentTime2
+                        eta of ds1 { (#,#) ipv ipv1 ->
+                 SDLEventProvider.SDLKeyEventProvider.sdlKeyEventGen1
+                   channel
+                   SDLEventProvider.SDLKeyEventProvider.sdlKeyEventProvider2
+                   (Data.Time.Clock.POSIX.posixSecondsToUTCTime ipv1)
+                   ipv }) -}
+cfbc351d5be8f47d25fa743f7026732f
+  sdlKeyEventProvider2 ::
+    SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (SDLEventProvider.SDLKeyEventProvider.InternalKeyState
+                   (GHC.Types.[] @ (GHC.Base.String, GHC.Integer.Type.Integer))
+                   (GHC.Types.[]
+                      @ (GHC.Base.String, GHC.Integer.Type.Integer,
+                         GHC.Integer.Type.Integer))
+                   (GHC.Types.[] @ (GHC.Base.String, GHC.Integer.Type.Integer))) -}
+a7be1ba7eb9949f86b9b3792f3b2ddb4
+  showSDLControlWindow :: GHC.Types.IO SDL.Internal.Types.Window
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <SDL.Internal.Types.Window>_R)) -}
+85cd968747c663d94c2b1a7416f0d5f2
+  showSDLControlWindow1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          SDL.Internal.Types.Window #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case (SDL.Init.$winitialize
+                         @ []
+                         @ GHC.Types.IO
+                         Data.Foldable.$fFoldable[]
+                         Control.Monad.IO.Class.$fMonadIOIO
+                         SDL.Init.initializeAll1)
+                        `cast`
+                      (GHC.Types.N:IO[0] <()>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case (SDL.Video.createWindow
+                         @ GHC.Types.IO
+                         Control.Monad.IO.Class.$fMonadIOIO
+                         SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow11
+                         SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow7)
+                        `cast`
+                      (GHC.Types.N:IO[0] <SDL.Internal.Types.Window>_R)
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case (SDL.Video.createRenderer
+                         @ GHC.Types.IO
+                         Control.Monad.IO.Class.$fMonadIOIO
+                         ipv3
+                         SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow6
+                           `cast`
+                         (Sym (Foreign.C.Types.N:CInt[0]))
+                         SDL.Video.Renderer.defaultRenderer)
+                        `cast`
+                      (GHC.Types.N:IO[0] <SDL.Internal.Types.Renderer>_R)
+                        ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                 case SDL.Video.Renderer.$wrendererDrawColor
+                        ipv5 of ww { (#,#) ww1 ww2 ->
+                 case (ww2
+                         SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow3)
+                        `cast`
+                      (GHC.Types.N:IO[0] <()>_R)
+                        ipv4 of ds4 { (#,#) ipv6 ipv7 ->
+                 case (SDL.Exception.throwIf
+                         @ GHC.Types.IO
+                         @ Foreign.C.Types.CInt
+                         Control.Monad.IO.Class.$fMonadIOIO
+                         SDL.Video.Renderer.clear_eta
+                         SDL.Video.Renderer.clear2
+                         SDL.Video.Renderer.clear1
+                         (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                          case ipv5
+                                 `cast`
+                               (SDL.Internal.Types.N:Renderer[0]) of ds5 { GHC.Ptr.Ptr ds6 ->
+                          case {__pkg_ccall_GC sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO SDL_RenderClear GHC.Prim.Addr#
+                                                                                                            -> GHC.Prim.State#
+                                                                                                                 GHC.Prim.RealWorld
+                                                                                                            -> (# GHC.Prim.State#
+                                                                                                                    GHC.Prim.RealWorld,
+                                                                                                                  GHC.Prim.Int# #)}
+                                 ds6
+                                 eta of wild { (#,#) ds7 ds8 ->
+                          (# ds7, GHC.Int.I32# (GHC.Prim.narrow32Int# ds8) #) } })
+                           `cast`
+                         (Sym (GHC.Types.N:IO[0] (Foreign.C.Types.N:CInt[0]))))
+                        `cast`
+                      (GHC.Types.N:IO[0] <Foreign.C.Types.CInt>_R)
+                        ipv6 of ds5 { (#,#) ipv8 ipv9 ->
+                 case {__pkg_ccall base-4.9.0.0 rtsSupportsBoundThreads GHC.Prim.State#
+                                                                          GHC.Prim.RealWorld
+                                                                        -> (# GHC.Prim.State#
+                                                                                GHC.Prim.RealWorld,
+                                                                              GHC.Prim.Int# #)}
+                        GHC.Prim.realWorld# of wild { (#,#) ds6 ds7 ->
+                 case ds7 of wild1 {
+                   DEFAULT
+                   -> case GHC.Conc.Windows.threadDelay1
+                             SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow2
+                             ipv8 of ds8 { (#,#) ipv10 ipv11 ->
+                      case ipv5
+                             `cast`
+                           (SDL.Internal.Types.N:Renderer[0]) of ds9 { GHC.Ptr.Ptr ds10 ->
+                      case {__pkg_ccall_GC sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO SDL_RenderPresent GHC.Prim.Addr#
+                                                                                                          -> GHC.Prim.State#
+                                                                                                               GHC.Prim.RealWorld
+                                                                                                          -> (# GHC.Prim.State#
+                                                                                                                  GHC.Prim.RealWorld #)}
+                             ds10
+                             ipv10 of wild2 { Unit# ds11 ->
+                      (# ds11, ipv3 #) } } }
+                   0#
+                   -> case GHC.Prim.delay#
+                             @ GHC.Prim.RealWorld
+                             10000#
+                             ipv8 of s' { DEFAULT ->
+                      case ipv5
+                             `cast`
+                           (SDL.Internal.Types.N:Renderer[0]) of ds8 { GHC.Ptr.Ptr ds9 ->
+                      case {__pkg_ccall_GC sdl2-2.1.3@sdl2-2.1.3-1EqSWplBNy9KMgxJ9U28SO SDL_RenderPresent GHC.Prim.Addr#
+                                                                                                          -> GHC.Prim.State#
+                                                                                                               GHC.Prim.RealWorld
+                                                                                                          -> (# GHC.Prim.State#
+                                                                                                                  GHC.Prim.RealWorld #)}
+                             ds9
+                             s' of wild2 { Unit# ds10 ->
+                      (# ds10, ipv3 #) } } } } } } } } } } }) -}
+4e0b66dcdab9e9dfa51f0ff0784588f4
+  showSDLControlWindow10 :: GHC.Int.Int32
+  {- HasNoCafRefs, Unfolding: (GHC.Int.I32# 300#) -}
+3e5ba582c2032c00cfb59a997af44bd4
+  showSDLControlWindow11 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "FritzLight SDL Control Area"#) -}
+7ab2211478e8ae55712edd0962034cd6
+  showSDLControlWindow2 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 10000#) -}
+c2ee095cf2b5d25e8ea607890be57e51
+  showSDLControlWindow3 :: Linear.V4.V4 GHC.Word.Word8
+  {- HasNoCafRefs,
+     Unfolding: (Linear.V4.V4
+                   @ GHC.Word.Word8
+                   SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow5
+                   SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow5
+                   SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow4
+                   SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow4) -}
+81c067fcfc2c2f35da51af739ed2647f
+  showSDLControlWindow4 :: GHC.Word.Word8
+  {- HasNoCafRefs, Unfolding: (GHC.Word.W8# 255##) -}
+3ef960f33b59abfa5f29dc02b733ffa4
+  showSDLControlWindow5 :: GHC.Word.Word8
+  {- HasNoCafRefs, Unfolding: (GHC.Word.W8# 0##) -}
+540d215bcf990dddade311ad4087aaf4
+  showSDLControlWindow6 :: GHC.Int.Int32
+  {- HasNoCafRefs, Unfolding: (GHC.Int.I32# -1#) -}
+144e76a5e8533eb75598e2c36a315c09
+  showSDLControlWindow7 :: SDL.Video.WindowConfig
+  {- HasNoCafRefs,
+     Unfolding: (SDL.Video.WindowConfig
+                   GHC.Types.True
+                   GHC.Types.False
+                   GHC.Types.False
+                   SDL.Video.Windowed
+                   (GHC.Base.Nothing @ SDL.Video.OpenGL.OpenGLConfig)
+                   SDL.Video.Wherever
+                   GHC.Types.False
+                   SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow8) -}
+20b46d00d1c792248d5809d1bd070570
+  showSDLControlWindow8 :: Linear.V2.V2 Foreign.C.Types.CInt
+  {- HasNoCafRefs,
+     Unfolding: (Linear.V2.V2
+                   @ Foreign.C.Types.CInt
+                   SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow10
+                     `cast`
+                   (Sym (Foreign.C.Types.N:CInt[0]))
+                   SDLEventProvider.SDLKeyEventProvider.showSDLControlWindow9
+                     `cast`
+                   (Sym (Foreign.C.Types.N:CInt[0]))) -}
+b1e29aa63c0e36ebc20b48d42d791c6f
+  showSDLControlWindow9 :: GHC.Int.Int32
+  {- HasNoCafRefs, Unfolding: (GHC.Int.I32# 100#) -}
+instance GHC.Read.Read [SDLEventProvider.SDLKeyEventProvider.InternalKeyState]
+  = SDLEventProvider.SDLKeyEventProvider.$fReadInternalKeyState
+instance GHC.Read.Read [SDLEventProvider.SDLKeyEventProvider.KeyState]
+  = SDLEventProvider.SDLKeyEventProvider.$fReadKeyState
+instance GHC.Show.Show [SDLEventProvider.SDLKeyEventProvider.InternalKeyState]
+  = SDLEventProvider.SDLKeyEventProvider.$fShowInternalKeyState
+instance GHC.Show.Show [SDLEventProvider.SDLKeyEventProvider.KeyState]
+  = SDLEventProvider.SDLKeyEventProvider.$fShowKeyState
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
